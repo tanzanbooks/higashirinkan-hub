@@ -42,7 +42,7 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir -p public
-          cp *.html style.css app.js data.js local-updates.json public/
+          cp *.html *.css *.js local-updates.json public/
           cp -r assets public/assets
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
