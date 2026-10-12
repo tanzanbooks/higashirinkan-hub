@@ -6,7 +6,7 @@ function render(){const query=document.querySelector('#search').value.trim().toL
 if(grid){document.querySelector('#search').addEventListener('input',render);document.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>{category=b.dataset.category;document.querySelectorAll('[data-category]').forEach(x=>{const active=x===b;x.classList.toggle('active',active);x.setAttribute('aria-pressed',String(active));});render();}));render();}
 const dayNames=['日','月','火','水','木','金','土'];if(document.querySelector("#event-list"))events.forEach(e=>{const row=el('article','event-row');const [year,month,day]=e.date.split('-');const date=el('div','event-date');date.append(el('small','',year),el('strong','',`${Number(month)}.${day}`),el('span','',e.end?'SAT – SUN':dayNames[new Date(`${e.date}T12:00:00+09:00`).getDay()]));const body=el('div','event-body');body.append(el('span','tag',e.type),el('h3','',e.title),el('p','',e.summary));const b=el('button','event-more','詳細 ↗');b.addEventListener('click',()=>openDetail(e.title,e.detail));row.append(date,body,b);document.querySelector('#event-list').append(row);});
 const menu=document.querySelector('#menu');menu.addEventListener('click',()=>{const expanded=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!expanded));document.querySelector('#nav').classList.toggle('open',!expanded);});document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{menu.setAttribute('aria-expanded','false');document.querySelector('#nav').classList.remove('open');}));document.querySelector('#close-detail').addEventListener('click',()=>document.querySelector('#detail').close());document.querySelector('#detail').addEventListener('click',e=>{if(e.target===e.currentTarget){const r=e.currentTarget.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.currentTarget.close();}});
-if(document.querySelector('#contact-form'))document.querySelector('#contact-form').addEventListener('submit',e=>{e.preventDefault();const subject=`【東林間HUB】${document.querySelector('#topic').value}`;const body=`お名前：${document.querySelector('#name').value.trim()}\n\n${document.querySelector('#message').value.trim()}`;window.location.href=`mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;document.querySelector('#contact-status').textContent='メールアプリで宛先を入力し、内容をご確認のうえ送信してください。';});
+if(document.querySelector('#contact-form')&&document.querySelector('#contact-form').dataset.directEmail!=='true')document.querySelector('#contact-form').addEventListener('submit',e=>{e.preventDefault();const subject=`【東林間HUB】${document.querySelector('#topic').value}`;const body=`お名前：${document.querySelector('#name').value.trim()}\n\n${document.querySelector('#message').value.trim()}`;window.location.href=`mailto:info@tanzanbooks.jp?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;document.querySelector('#contact-status').textContent='メールアプリで内容をご確認のうえ、info@tanzanbooks.jpへ送信してください。';});
 
 // 商店街の公式カテゴリーへ移動する案内。
 const officialCategories = [
@@ -61,3 +61,15 @@ const neighborhoodShops = [{"name": "himari", "url": "https://www.higashi-rinkan
 })();
 
 if(document.querySelector('#topic')){const requested=new URLSearchParams(window.location.search).get('topic');if(requested&&Array.from(document.querySelector('#topic').options).some(o=>o.value===requested))document.querySelector('#topic').value=requested;}
+
+// Direct submission uses the form's HTTPS endpoint; never opens a mail app.
+const directForm=document.querySelector('#contact-form[data-direct-email="true"]');
+if(directForm){
+ document.querySelector('#contact-next').value=new URL('contact-thanks.html',window.location.href).href;
+ directForm.addEventListener('submit',e=>{
+  const name=document.querySelector('#name'),message=document.querySelector('#message');
+  name.value=name.value.trim();message.value=message.value.trim();
+  if(!name.value||!message.value){e.preventDefault();document.querySelector('#contact-status').textContent='お名前と相談内容をご入力ください。';return;}
+  document.querySelector('#contact-status').textContent='送信手続きへ進みます。確認画面が出た場合は操作を完了してください。';
+ });
+}
