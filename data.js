@@ -1,0 +1,20 @@
+// source付きの店舗は商店街または店舗公式サイトを2026-10-12に確認して要約。その他は提供情報による編集案。
+// 最新の営業状況は各店に確認してください。追加・修正はここで行います。
+const places = [
+ {name:'焼鳥 炎家',category:'food',label:'飲食',icon:'炎',color:'peach',intro:'炭火で焼き上げる、こだわりの焼鳥。',description:'健味鶏や日南鶏を使い、炭や岩塩にもこだわって焼き上げる焼鳥のお店。メニューや予約については炎家の公式サイトをご覧ください。',address:'神奈川県相模原市南区東林間5-3-3',source:'店舗公式サイト',url:'https://www.enya-sumiyakichubo.com/',keywords:'炎家 えんや 焼鳥 焼き鳥 炭火 居酒屋'},
+ {name:"BILLY’S BEER STORE",category:'food',label:'飲食',icon:'麦',color:'yellow',intro:'クラフトビールから、会話がはじまる。',description:'国内外のクラフトビールを取り扱うお店。季節や好みに合わせて、さまざまなビールとの出会いを楽しめます。商店街公式サイトの店舗紹介をもとに要約しています。',address:'東林間5-15-14 フォトWING1階',source:'商店街公式サイト',url:'https://www.higashi-rinkan.net/merchants/billysbeer-store.html',keywords:'ビール 松原'},
+ {name:'二の橋書店・二橋亭',category:'books',label:'本・文化',icon:'本',color:'peach',intro:'古書と、小さな本棚のある場所。',description:'古書店「二の橋書店」とシェア型本棚「二橋亭」。本棚を通じて、それぞれの好きな本や関心に触れるきっかけをつくります。',url:'https://nikyoutei.jp/',keywords:'古本 古書 読書 本棚 ZINE'},
+ {name:'東林公民館',category:'community',label:'地域の拠点',icon:'集',color:'blue',intro:'学びと活動の、身近な接点。',description:'地域の活動が集まる公民館。文化祭の一箱古本市など、地域で本に出会う企画の紹介を予定しています。施設の利用案内は公式情報でご確認ください。',url:null,keywords:'公民館 文化祭 学び 図書室'},
+{"name": "スパイスカレー食堂", "category": "food", "label": "飲食", "icon": "香", "color": "yellow", "intro": "スパイスの香りを、日々の食卓に。", "description": "スリランカカレーを紹介するお店。スパイスを使った一皿が楽しめます。", "address": "東林間5-2-7", "source": "商店街公式サイト", "url": "https://www.higashi-rinkan.net/merchants/スパイスカレー.html", "keywords": "カレー ランチ スリランカ"},
+{"name": "珈琲新鮮館 Dino.", "category": "food", "label": "飲食", "icon": "珈", "color": "sage", "intro": "自家焙煎の豆と、持ち帰りの一杯。", "description": "コーヒー豆やテイクアウトドリンクを扱うお店。コーヒープリンや焼菓子も紹介されています。", "address": "上鶴間7-6-9", "source": "商店街公式サイト", "url": "https://www.higashi-rinkan.net/merchants/dino.html", "keywords": "コーヒー カフェ 豆 プリン"},
+{"name": "カフェ＆バー 薪ストーブ", "category": "food", "label": "飲食", "icon": "灯", "color": "peach", "intro": "駅西口で、コーヒーの時間を。", "description": "東林間駅西口近くのカフェ＆バー。ネルドリップのコーヒーや自家製チーズケーキが紹介されています。", "address": "東林間5-2-3 東林間高橋ビル202", "source": "商店街公式サイト", "url": "https://www.higashi-rinkan.net/merchants/makistove.html", "keywords": "カフェ コーヒー ケーキ"},
+{"name": "三福飯店", "category": "food", "label": "飲食", "icon": "飯", "color": "blue", "intro": "駅前で親しまれる、中華の味。", "description": "しょうゆを基本にしたスープと、手作りの料理を紹介する中華料理店です。", "address": "上鶴間7-6-9", "source": "商店街公式サイト", "url": "https://www.higashi-rinkan.net/merchants/sanhuku.html", "keywords": "中華 ランチ ラーメン"},
+{"name": "欧風菓子 クドウ", "category": "sweets", "label": "食料品・菓子", "icon": "菓", "color": "yellow", "intro": "焼菓子やケーキを、贈りものに。", "description": "素材を生かした焼菓子やケーキを扱う菓子店。贈りものや集まりのお菓子にも。", "address": "東林間5-5-3", "source": "商店街公式サイト", "url": "https://www.higashi-rinkan.net/merchants/kudoh.html", "keywords": "洋菓子 ケーキ ギフト"},
+{"name": "御菓子処 ふる田", "category": "sweets", "label": "食料品・菓子", "icon": "和", "color": "peach", "intro": "手作りの和菓子と、季節の楽しみ。", "description": "国内産の豆を使い、餡から手作りする生和菓子が紹介されています。", "address": "東林間5-16-1", "source": "商店街公式サイト", "url": "https://www.higashi-rinkan.net/merchants/furuta.html", "keywords": "和菓子 餡 菓子"},
+{"name": "勝俣スポーツ", "category": "hobby", "label": "趣味・スポーツ・生花", "icon": "球", "color": "blue", "intro": "スポーツ用品の、身近な相談先。", "description": "スポーツ用品を扱うお店。野球用品やグローブ、スパイクの修理についても紹介されています。", "address": "東林間5-10-12", "source": "商店街公式サイト", "url": "https://www.higashi-rinkan.net/merchants/katsumatasp.html", "keywords": "スポーツ 野球 修理"},
+{"name": "フラワーショップ十一屋", "category": "hobby", "label": "趣味・スポーツ・生花", "icon": "花", "color": "sage", "intro": "花を贈る。暮らしに緑を添える。", "description": "花のギフトやアレンジメントのほか、ガーデニングの相談にも対応するお店として紹介されています。", "address": "東林間5-15-2", "source": "商店街公式サイト", "url": "https://www.higashi-rinkan.net/merchants/flower11.html", "keywords": "花屋 花 ギフト ガーデニング"}
+];
+const events = [
+ {date:'2026-11-03',title:'東林間一箱古本市',type:'本・交流',summary:'一箱の本からはじまる、本と人との出会い。',detail:'東林間一箱古本市の開催予定の掲載案です。会場・開催時間・雨天時の対応・出店情報は、主催者の正式案内の確認後に掲載します。'},
+ {date:'2027-03-06',end:'2027-03-07',title:'東林公民館文化祭 一箱古本市',type:'本・地域',summary:'地域の文化祭で、お気に入りの一冊を見つけよう。',detail:'2027年3月6日・7日、各日10:00〜15:00の企画情報をもとにした掲載案です。定員や参加条件、会場の詳細は主催者の正式案内をご確認ください。'}
+];
