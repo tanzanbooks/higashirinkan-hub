@@ -40,9 +40,17 @@ def summarize(items,kind,key):
  selected=json.loads(output)['items'];result=[];used=set()
  for s in selected:
   idx=s.get('id');summary=s.get('summary')
+  if isinstance(idx,str) and idx.isdecimal():idx=int(idx)
   if type(idx)!=int or idx<0 or idx>=len(items) or idx in used or not isinstance(summary,str):continue
   item={k:v for k,v in items[idx].items() if k not in ['id','excerpt']};item['summary']=summary[:180];result.append(item);used.add(idx)
  return result[:8]
+
+def news_headlines(candidates):
+ # These are source headlines, not AI-generated claims.
+ return [dict(title=item['title'],url=item['url'],source=item['source'],
+              published_at=item.get('published_at'),
+              summary='掲載元の見出しを紹介しています。詳しくはリンク先をご覧ください。')
+         for item in candidates[:8]]
 
 
 def jobs_seen(previous,items):
@@ -117,6 +125,12 @@ def main():
     print(kind+': search candidates='+str(len(candidates)))
     stage='OpenAI API'
     selected=summarize(candidates,kind,key)
+    if candidates and not selected:
+     print('news: no usable AI selections; source headlines used')
+     selected=news_headlines(candidates)
+   if kind=='news' and not selected and old.get('news',{}).get('items'):
+    print('news: no new results; previous articles and timestamp retained')
+    continue
    old[kind]={'updated_at':now,'items':selected,'query':'東林間' if kind=='news' else '東林間 求人 募集 採用','seen':jobs_seen(old.get('jobs',{}),selected) if kind=='jobs' else {}}
    print(kind+': selected='+str(len(selected)))
   except Exception as error:
@@ -140,5 +154,3 @@ def main():
  path.write_text(json.dumps(old,ensure_ascii=False,indent=2)+'\n')
  print('Updated search-based local listings; failed sections: '+','.join(failed))
 if __name__=='__main__':main()
-
-
