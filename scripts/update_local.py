@@ -45,8 +45,27 @@ def main():
  if not key:raise RuntimeError('Set OPENAI_API_KEY in GitHub Actions secrets first.')
  path=ROOT/'local-updates.json';old=json.loads(path.read_text()) if path.exists() else {};now=datetime.now(timezone.utc).isoformat();failed=[]
  for kind in ['news','jobs']:
-  try:old[kind]={'updated_at':now,'items':summarize(collect(kind),kind,key),'query':'東林間' if kind=='news' else '東林間 求人 募集 採用'}
-  except Exception as error:failed.append(kind);print(kind+' update failed: '+type(error).__name__+'; previous results retained')
+  stage='search feed'
+  try:
+   candidates=collect(kind)
+   print(kind+': search candidates='+str(len(candidates)))
+   stage='OpenAI API'
+   selected=summarize(candidates,kind,key)
+   old[kind]={'updated_at':now,'items':selected,'query':'東林間' if kind=='news' else '東林間 求人 募集 採用'}
+   print(kind+': selected='+str(len(selected)))
+  except Exception as error:
+   failed.append(kind)
+   print(kind+' update failed at '+stage+': '+type(error).__name__+'; previous results retained')
+   if isinstance(error,urllib.error.HTTPError):
+    print('HTTP status: '+str(error.code))
+    print('Host: '+str(urllib.parse.urlparse(error.url).hostname))
+    if stage=='OpenAI API':
+     try:
+      detail=json.loads(error.read()).get('error',{})
+      for field in ['type','code']:
+       value=str(detail.get(field,''))
+       if value and all(ch.isalnum() or ch in '_-' for ch in value):print('API error '+field+': '+value)
+     except Exception:pass
  if len(failed)==2:raise RuntimeError('Both updates failed; previous file unchanged.')
  path.write_text(json.dumps(old,ensure_ascii=False,indent=2)+'\n')
  print('Updated search-based local listings; failed sections: '+','.join(failed))
