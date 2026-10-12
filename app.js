@@ -15,3 +15,18 @@ const officialCategories = [
 for (const [label,path] of officialCategories) {
  const link=el('a','directory-link');link.href=`https://www.higashi-rinkan.net/industry/${path}`;link.target='_blank';link.rel='noopener noreferrer';link.append(el('span','',label),el('span','','↗'));document.querySelector('#official-categories').append(link);
 }
+
+// コースは編集案。AIのライブ生成ではありません。
+const walkPlans={
+ books:{title:'本とカフェを楽しむコース案',steps:['東林間駅を出発','二の橋書店・二橋亭で本棚を見てみる','珈琲新鮮館 Dino.でコーヒーを楽しむ'],note:'本を見つけたあと、コーヒーの時間へ。営業日を確認して、無理のない順路でお楽しみください。'},
+ food:{title:'食とお店に出会うコース案',steps:['東林間駅を出発','欧風菓子 クドウでお菓子を探す','BILLY’S BEER STOREでクラフトビールに出会う','焼鳥 炎家の料理を楽しむ'],note:'お菓子から食事まで、興味のあるお店を選んで巡る案です。すべてに立ち寄る必要はありません。営業時間・予約を確認してください。'},
+ memory:{title:'昔の東林間と今を比べるコース案',steps:['1994年の写真をもとにしたイラストを見てみる','商店街の公式マップで散歩の範囲を決める','道や街灯、お店の並びを眺めながら歩く','気づいた変化や思い出を記録する'],note:'写真の撮影地点は未特定です。イラストは写真からの解釈を含み、建物や場所の照合資料にはなりません。古写真の情報を集めてコースを育てます。'}
+};
+function showWalk(){const plan=walkPlans[document.querySelector('#walk-theme').value];const out=document.querySelector('#walk-result');out.replaceChildren(el('h3','',plan.title));const list=el('ol','walk-steps');for(const step of plan.steps)list.append(el('li','',step));out.append(list,el('p','',plan.note));const a=el('a','text-link','商店街の公式マップで場所を確認する ↗');a.href='https://www.higashi-rinkan.net/map.html';a.target='_blank';a.rel='noopener noreferrer';out.append(a);}
+document.querySelector('#walk-theme').addEventListener('change',showWalk);showWalk();
+document.querySelectorAll('[data-consult]').forEach(a=>a.addEventListener('click',()=>{document.querySelector('#topic').value=a.dataset.consult;}));
+
+async function loadLocalUpdates(){
+ try {const response=await fetch('./local-updates.json',{cache:'no-store'});if(!response.ok)throw new Error('fetch');const data=await response.json();for(const kind of ['news','jobs']){const section=data[kind]||{};const out=document.querySelector(`#${kind}-feed`);out.replaceChildren();document.querySelector(`#${kind}-updated`).textContent=section.updated_at?'最終更新：'+new Date(section.updated_at).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo'})+'（日本時間）':'初回の自動更新待ち';for(const item of section.items||[]){if(!item.url?.startsWith('https://'))continue;const card=el('article','live-card');card.append(el('h3','',item.title),el('p','',item.summary),el('p','editor-note','出典：'+item.source));if(item.published_at)card.append(el('p','editor-note','検索側の掲載日：'+new Date(item.published_at).toLocaleDateString('ja-JP')));const a=el('a','text-link','掲載先で詳細を見る ↗');a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';card.append(a);out.append(card);}if(!out.children.length)out.append(el('p','editor-note',section.updated_at?'検索範囲内で関連する情報が見つかりませんでした。':'自動更新の設定後に検索結果が表示されます。'));}}catch{for(const kind of ['news','jobs'])document.querySelector(`#${kind}-updated`).textContent='更新情報を読み込めませんでした。公開サイトからご覧ください。';}
+}
+loadLocalUpdates();
