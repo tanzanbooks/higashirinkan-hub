@@ -107,7 +107,7 @@
   async function init(){
     if(!window.L){status('地図を読み込めませんでした。通信を確認して再読み込みしてください。',true);return;}
     map=L.map('memory-map',{minZoom:13,maxZoom:19,maxBounds:area,maxBoundsViscosity:.8,touchZoom:true,doubleClickZoom:false}).setView(center,16);
-    const tile=L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png',{subdomains:'abcd',maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'}).addTo(map);
+    const tile=L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png',{maxNativeZoom:18,maxZoom:19,attribution:'<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener noreferrer">地理院タイル</a>（淡色地図を白黒加工）'}).addTo(map);
     tile.on('tileerror',()=>{$('map-tile-error').hidden=false;});
     markers=L.layerGroup().addTo(map);
     for(const id of ['map-home','map-expand','map-center-post'])$(id).disabled=false;
