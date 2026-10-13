@@ -1,7 +1,8 @@
 name: Update local news and jobs
 on:
   schedule:
-    - cron: '17 22 * * *'
+    - cron: '17 22 * * *' # 日本時間 07:17
+    - cron: '43 23 * * *' # 予備：日本時間 08:43
   workflow_dispatch:
   push:
     branches: [main]
@@ -28,7 +29,24 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
-        run: python scripts/update_local.py
+        # 予備の予約実行は、同じ日本日付ですでに検索予約済みならAPIを呼ばず公開のみ。
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          from datetime import datetime, timezone, timedelta
+          budget = Path('job-search-budget.json')
+          state = json.loads(budget.read_text()) if budget.exists() else {}
+          today = datetime.now(timezone(timedelta(hours=9))).date().isoformat()
+          if state.get('date') == today and state.get('reserved', 0) >= 2:
+              print('Daily job search limit reached; publish existing data without extra API calls.')
+          else:
+              subprocess.run(['python', 'scripts/update_local.py'], check=True)
+          PY
+          else
+            python scripts/update_local.py
+          fi
       - name: Save updates
         run: |
           git config user.name 'github-actions[bot]'
