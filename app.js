@@ -75,4 +75,6 @@ if(directForm){
 }
 
 const propertyNav=document.querySelector('#nav');
-if(propertyNav&&!propertyNav.querySelector('a[href="properties.html"]')){const a=el('a','','事務所・店舗');a.href='properties.html';if(window.location.pathname.endsWith('/properties.html'))a.setAttribute('aria-current','page');propertyNav.append(a);}
+if(propertyNav&&!propertyNav.querySelector('a[href="properties.html"]')){const a=el('a','','事務所・店舗');a.href='properties.html';if(window.location.pathname.endsWith('/properties.html'))a.setAttribute('aria-current','page');const eventsLink=propertyNav.querySelector('a[href="events.html"]');propertyNav.insertBefore(a,eventsLink);}
+
+if(propertyNav){const link=propertyNav.querySelector('a[href="properties.html"]');const eventsLink=propertyNav.querySelector('a[href="events.html"]');if(link&&eventsLink)propertyNav.insertBefore(link,eventsLink);}
