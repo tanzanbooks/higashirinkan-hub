@@ -1,4 +1,4 @@
-name: Update local news and jobs
+name: Update local news, jobs and properties
 on:
   schedule:
     - cron: '17 22 * * *' # 日本時間 07:17
@@ -37,10 +37,12 @@ jobs:
           from pathlib import Path
           from datetime import datetime, timezone, timedelta
           budget = Path('job-search-budget.json')
+          property_budget = Path('property-search-budget.json')
+          property_state = json.loads(property_budget.read_text()) if property_budget.exists() else {}
           state = json.loads(budget.read_text()) if budget.exists() else {}
           today = datetime.now(timezone(timedelta(hours=9))).date().isoformat()
-          if state.get('date') == today and state.get('reserved', 0) >= 2:
-              print('Daily job search limit reached; publish existing data without extra API calls.')
+          if state.get('date') == today and state.get('reserved', 0) >= 2 and property_state.get('date') == today and property_state.get('reserved', 0) >= 1:
+              print('Daily search limits reached; publish existing data without extra API calls.')
           else:
               subprocess.run(['python', 'scripts/update_local.py'], check=True)
           PY
@@ -53,7 +55,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add local-updates.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Update Higashirinkan news and jobs'
+            git commit -m 'Update Higashirinkan news, jobs and properties'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
