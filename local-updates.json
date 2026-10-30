@@ -1,35 +1,27 @@
 {
   "news": {
-    "updated_at": "2026-10-30T01:58:30.401985+00:00",
+    "updated_at": "2026-10-30T02:55:17.401688+00:00",
     "items": [
       {
         "title": "15古書店等出店 第２回「東林間一箱古本市」が11月３日（火・祝）に東林間神社で開催 - タウンニュース",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xaU5FNER6VmV0cU8tLWcyNjBObzNmQlhuTVRGTzF3OEItNzF1RUlvRGhiUzNpVXgyWFZiMy1PLWFvNmRlVHpNUW1DS3doTUVMLXFrSGsyVzU3QUw2RVIxcFNjM2s?oc=5",
         "source": "タウンニュース",
         "published_at": "2026-10-09T07:00:00+00:00",
-        "summary": "東林間神社で11月3日に第2回「東林間一箱古本市」が15古書店等の出店で開催。"
+        "summary": "東林間神社で11月3日に第2回「東林間一箱古本市」が開催され、15の古書店等が出店予定。"
       }
     ],
     "query": "東林間",
     "seen": {}
   },
   "jobs": {
-    "updated_at": "2026-10-30T01:58:30.401985+00:00",
+    "updated_at": "2026-10-30T02:55:17.401688+00:00",
     "items": [
-      {
-        "title": "ライブラリ東林間 高齢者グループホーム介護職員〖パート〗の求人詳細―リビングプラットフォームグループ 介護士・障がい者支援員・保育士・調理師 求人サイト",
-        "url": "https://living-platform-recruit.net/jobfind-pc/job/All/111801?utm_source=openai",
-        "source": "living-platform-recruit.net",
-        "published_at": null,
-        "summary": "ライブラリ東林間の高齢者グループホーム介護職員パート求人。未経験歓迎、シフト制勤務。（初めて見つけた日：2026-10-27。募集状況は掲載先で確認）",
-        "first_seen": "2026-10-27T01:29:27.366424+00:00"
-      },
       {
         "title": "〖2026年10月最新〗東林間駅の看護師/准看護師求人・転職・給料 - 看護roo![カンゴルー]",
         "url": "https://www.kango-roo.com/career/station/2680686002/?utm_source=openai",
         "source": "www.kango-roo.com",
         "published_at": null,
-        "summary": "さがみ林間病院での看護師正社員求人。東林間駅近郊、年間休日120日など特徴あり。（初めて見つけた日：2026-10-15。募集状況は掲載先で確認）",
+        "summary": "東林間駅近くのさがみ林間病院での看護師正社員求人。年間休日120日、車通勤可。（初めて見つけた日：2026-10-15。募集状況は掲載先で確認）",
         "first_seen": "2026-10-15T00:07:00.218635+00:00"
       },
       {
@@ -37,7 +29,7 @@
         "url": "https://job-medley.com/facility/530147/?utm_source=openai",
         "source": "job-medley.com",
         "published_at": null,
-        "summary": "A-Smile東林間のサービス提供責任者募集。2025年12月オープンの新施設、未経験歓迎。（初めて見つけた日：2026-10-15。募集状況は掲載先で確認）",
+        "summary": "A-Smile東林間のサービス提供責任者正社員求人。2025年12月オープンの新事業所。（初めて見つけた日：2026-10-15。募集状況は掲載先で確認）",
         "first_seen": "2026-10-15T00:07:00.218635+00:00"
       },
       {
@@ -45,7 +37,15 @@
         "url": "https://jp.indeed.com/viewjob?jk=923894fa0e8391b0&utm_source=openai",
         "source": "jp.indeed.com",
         "published_at": null,
-        "summary": "ひがし林間歯科での歯科衛生士パート求人。東林間駅徒歩3分、週1日から勤務可能。（初めて見つけた日：2026-10-13。募集状況は掲載先で確認）",
+        "summary": "東林間駅徒歩3分のひがし林間歯科での歯科衛生士パート求人。週1日から勤務可能。（初めて見つけた日：2026-10-13。募集状況は掲載先で確認）",
+        "first_seen": "2026-10-13T23:41:35.553464+00:00"
+      },
+      {
+        "title": "ライブラリ東林間 高齢者グループホーム介護職員/早番・日勤・遅番〖パート〗の求人詳細―リビングプラットフォームグループ 介護士・障がい者支援員・保育士・調理師 求人サイト",
+        "url": "https://living-platform-recruit.net/jobfind-pc/job/All/111807?utm_source=openai",
+        "source": "living-platform-recruit.net",
+        "published_at": null,
+        "summary": "ライブラリ東林間の高齢者グループホームでの介護職員パート求人。未経験歓迎で駅近。（初めて見つけた日：2026-10-13。募集状況は掲載先で確認）",
         "first_seen": "2026-10-13T23:41:35.553464+00:00"
       },
       {
@@ -53,7 +53,7 @@
         "url": "https://living-platform-recruit.net/jobfind-pc/job/All/118767?utm_source=openai",
         "source": "living-platform-recruit.net",
         "published_at": null,
-        "summary": "ライブラリ東林間の夜勤専従介護職員パート募集。無資格可、駅近、資格支援あり。（初めて見つけた日：2026-10-13。募集状況は掲載先で確認）",
+        "summary": "ライブラリ東林間の夜勤専従介護職員パート求人。無資格OK、駅近で資格取得支援あり。（初めて見つけた日：2026-10-13。募集状況は掲載先で確認）",
         "first_seen": "2026-10-13T23:41:35.553464+00:00"
       }
     ],
