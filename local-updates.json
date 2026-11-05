@@ -1,43 +1,51 @@
 {
   "news": {
-    "updated_at": "2026-11-04T03:12:51.227430+00:00",
+    "updated_at": "2026-11-05T02:28:58.243122+00:00",
     "items": [
       {
         "title": "15古書店等出店 第２回「東林間一箱古本市」が11月３日（火・祝）に東林間神社で開催 - タウンニュース",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xaU5FNER6VmV0cU8tLWcyNjBObzNmQlhuTVRGTzF3OEItNzF1RUlvRGhiUzNpVXgyWFZiMy1PLWFvNmRlVHpNUW1DS3doTUVMLXFrSGsyVzU3QUw2RVIxcFNjM2s?oc=5",
         "source": "タウンニュース",
         "published_at": "2026-10-09T07:00:00+00:00",
-        "summary": "東林間神社で11月3日に第2回東林間一箱古本市が開催される。古書店15店舗が出店。"
+        "summary": "第2回「東林間一箱古本市」が11月3日に東林間神社で開催される。古書店15店が出店。"
       }
     ],
     "query": "東林間",
     "seen": {}
   },
   "jobs": {
-    "updated_at": "2026-11-04T03:12:51.227430+00:00",
+    "updated_at": "2026-11-05T02:28:58.243122+00:00",
     "items": [
       {
-        "title": "A-Smile東林間(神奈川県相模原市南区)の介護職員・ヘルパー(正社員)求人・採用情報｜ウェルミージョブ",
-        "url": "https://www.kaigojob.com/care-worker/job-postings-902323?utm_source=openai",
-        "source": "www.kaigojob.com",
+        "title": "株式会社第二章_大真綜合警備保障株式会社 [警備員] (日給11,360円～) 相模原市南区 小田急江ノ島線 東林間駅のバイト・アルバイトの求人情報[401626910]",
+        "url": "https://arubaito-ex.jp/jobs/401626910?utm_source=openai",
+        "source": "arubaito-ex.jp",
         "published_at": null,
-        "summary": "A-Smile東林間で介護職員・ヘルパー正社員の求人。未経験歓迎、資格支援制度あり。（初めて見つけた日：2026-10-26。募集状況は掲載先で確認）",
-        "first_seen": "2026-10-26T00:24:25.418135+00:00"
+        "summary": "相模原市南区の警備員求人。週1日から勤務可能で未経験歓迎。（初めて見つけた日：2026-11-03。募集状況は掲載先で確認）",
+        "first_seen": "2026-11-03T04:00:27.491385+00:00"
       },
       {
         "title": "保育士(東林間ちとせ保育園｜保育士｜パート)の採用情報 | 株式会社NAVIS",
-        "url": "https://recruit.jobcan.jp/navis/job_offers/2203659?path=google_jobs&utm_source=openai",
+        "url": "https://recruit.jobcan.jp/navis/job_offers/2203659?hide_breadcrumb=false&hide_search=false&utm_source=openai",
         "source": "recruit.jobcan.jp",
         "published_at": null,
-        "summary": "東林間ちとせ保育園の保育士パート求人。シフト制勤務で社会保険完備の求人情報。（初めて見つけた日：2026-10-18。募集状況は掲載先で確認）",
-        "first_seen": "2026-10-18T01:30:32.393615+00:00"
+        "summary": "東林間ちとせ保育園で保育士求人。時給1,270円から、社会保険完備。（初めて見つけた日：2026-10-25。募集状況は掲載先で確認）",
+        "first_seen": "2026-10-25T01:36:01.051206+00:00"
+      },
+      {
+        "title": "〖2026年11月版〗東林間の求人・転職情報一覧",
+        "url": "https://w99.biz/pref/ST23295?utm_source=openai",
+        "source": "w99.biz",
+        "published_at": null,
+        "summary": "東林間の求人情報。時給1,350円から1,600円、土日祝は時給アップ。（初めて見つけた日：2026-10-23。募集状況は掲載先で確認）",
+        "first_seen": "2026-10-23T01:54:36.859401+00:00"
       },
       {
         "title": "ライブラリ東林間 夜勤専従スタッフ/高齢者グループホームの介護職員〖パート〗の求人詳細―リビングプラットフォームグループ 介護士・障がい者支援員・保育士・調理師 求人サイト",
         "url": "https://living-platform-recruit.net/jobfind-pc/job/All/111798?utm_source=openai",
         "source": "living-platform-recruit.net",
         "published_at": null,
-        "summary": "ライブラリ東林間の夜勤専従介護パート求人。未経験者歓迎、駅徒歩8分の立地。（初めて見つけた日：2026-10-18。募集状況は掲載先で確認）",
+        "summary": "ライブラリ東林間の高齢者グループホームで夜勤専従介護職員募集。未経験者歓迎。（初めて見つけた日：2026-10-18。募集状況は掲載先で確認）",
         "first_seen": "2026-10-18T01:30:32.393615+00:00"
       },
       {
@@ -45,7 +53,7 @@
         "url": "https://www.kango-roo.com/career/station/2680686002/?utm_source=openai",
         "source": "www.kango-roo.com",
         "published_at": null,
-        "summary": "さがみ林間病院の看護師求人。相模原市南区上鶴間に所在し、年間休日120日など待遇が特徴。（初めて見つけた日：2026-10-15。募集状況は掲載先で確認）",
+        "summary": "東林間駅そばのさがみ林間病院で看護師求人。年間休日120日以上、車通勤可。（初めて見つけた日：2026-10-15。募集状況は掲載先で確認）",
         "first_seen": "2026-10-15T00:07:00.218635+00:00"
       }
     ],
