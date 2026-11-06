@@ -1,59 +1,67 @@
 {
   "news": {
-    "updated_at": "2026-11-06T02:28:55.292473+00:00",
+    "updated_at": "2026-11-06T03:39:19.534285+00:00",
     "items": [
       {
         "title": "15古書店等出店 第２回「東林間一箱古本市」が11月３日（火・祝）に東林間神社で開催 - タウンニュース",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xaU5FNER6VmV0cU8tLWcyNjBObzNmQlhuTVRGTzF3OEItNzF1RUlvRGhiUzNpVXgyWFZiMy1PLWFvNmRlVHpNUW1DS3doTUVMLXFrSGsyVzU3QUw2RVIxcFNjM2s?oc=5",
         "source": "タウンニュース",
         "published_at": "2026-10-09T07:00:00+00:00",
-        "summary": "東林間神社で11月3日に第2回「東林間一箱古本市」が開催され、15の古書店等が出店予定。"
+        "summary": "11月3日に東林間神社で第2回「東林間一箱古本市」が開催されます。"
       },
       {
         "title": "【相模原市南区】「第３５回東林間サマーわぁ！ニバル」を８月１日（土）・２日（日）に開催します！ - 山陽新聞",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxX1B4ZWtkSFFrN0xPdVRNRWVYNTJpTDVqWXFGZV9abV9jYnFWYUplaERfTld4R0ZnSVhZenczcUxSWTZXUTNNNndJU005RTlSaUE?oc=5",
         "source": "山陽新聞",
         "published_at": "2026-10-31T07:00:00+00:00",
-        "summary": "相模原市南区の東林間で8月1日・2日に第35回東林間サマーわぁ！ニバルが開催される。"
+        "summary": "8月1日・2日に相模原市南区で第35回東林間サマーわぁ！ニバルが開催されます。"
       }
     ],
     "query": "東林間",
     "seen": {}
   },
   "jobs": {
-    "updated_at": "2026-11-06T02:28:55.292473+00:00",
+    "updated_at": "2026-11-06T03:39:19.534285+00:00",
     "items": [
       {
-        "title": "東急ストア 東林間店 [キッチン・調理補助] (時給1,225円) 相模原市南区 小田急江ノ島線 東林間駅などのバイト・アルバイトの求人情報[397923208]",
-        "url": "https://arubaito-ex.jp/jobs/397923208?utm_source=openai",
+        "title": "東林間のバイト・アルバイトの求人情報",
+        "url": "https://arubaito-ex.jp/town/14153/%E6%9D%B1%E6%9E%97%E9%96%93?utm_source=openai",
         "source": "arubaito-ex.jp",
         "published_at": null,
-        "summary": "東急ストア東林間店でキッチン・調理補助のアルバイト募集。駅徒歩2分、未経験歓迎。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
-        "first_seen": "2026-11-06T02:28:55.292473+00:00"
+        "summary": "東林間周辺のスーパー寿司・惣菜スタッフアルバイト。時給1,279円～、週3日以上勤務。（初めて見つけた日：2026-11-04。募集状況は掲載先で確認）",
+        "first_seen": "2026-11-04T02:21:43.425290+00:00"
       },
       {
-        "title": "ライブラリ東林間 高齢者グループホームの介護職員〖パート〗の求人詳細―リビングプラットフォームグループ 介護士・障がい者支援員・保育士・調理師 求人サイト",
-        "url": "https://living-platform-recruit.net/jobfind-pc/job/All/118758?utm_source=openai",
+        "title": "株式会社第二章_大真綜合警備保障株式会社 [警備員] (日給11,360円～) 相模原市南区 小田急江ノ島線 東林間駅のバイト・アルバイトの求人情報[401626910]",
+        "url": "https://arubaito-ex.jp/jobs/401626910?utm_source=openai",
+        "source": "arubaito-ex.jp",
+        "published_at": null,
+        "summary": "相模原市南区東林間駅近くの警備員アルバイト。日給11,360円～。髪型自由、未経験歓迎。（初めて見つけた日：2026-11-03。募集状況は掲載先で確認）",
+        "first_seen": "2026-11-03T04:00:27.491385+00:00"
+      },
+      {
+        "title": "保育士(東林間ちとせ保育園｜保育士｜パート)の採用情報 | 株式会社NAVIS",
+        "url": "https://recruit.jobcan.jp/navis/job_offers/2203659?hide_breadcrumb=false&hide_search=false&utm_source=openai",
+        "source": "recruit.jobcan.jp",
+        "published_at": null,
+        "summary": "東林間ちとせ保育園パート保育士募集。時給1,270円～1,400円。日祝休み、社会保険完備。（初めて見つけた日：2026-10-25。募集状況は掲載先で確認）",
+        "first_seen": "2026-10-25T01:36:01.051206+00:00"
+      },
+      {
+        "title": "ライブラリ東林間 夜勤専従スタッフ/高齢者グループホームの介護職員〖パート〗の求人詳細―リビングプラットフォームグループ 介護士・障がい者支援員・保育士・調理師 求人サイト",
+        "url": "https://living-platform-recruit.net/jobfind-pc/job/All/111798?utm_source=openai",
         "source": "living-platform-recruit.net",
         "published_at": null,
-        "summary": "ライブラリ東林間の介護職員パート求人。無資格・未経験者歓迎、駅徒歩約8分。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
-        "first_seen": "2026-11-06T02:28:55.292473+00:00"
+        "summary": "東林間の高齢者グループホーム夜勤専従介護職員求人。時給1,400円～1,600円、夜勤手当あり。（初めて見つけた日：2026-10-18。募集状況は掲載先で確認）",
+        "first_seen": "2026-10-18T01:30:32.393615+00:00"
       },
       {
-        "title": "A-Smile東林間〖2025年12月オープン予定〗のアルバイト・バイト求人情報｜〖タウンワーク〗でバイトやパートのお仕事探し",
-        "url": "https://townwork.net/viewjob/jobid_01c690661b6e8ed6/?utm_source=openai",
-        "source": "townwork.net",
+        "title": "〖2026年10月最新〗東林間駅の看護師/准看護師求人・転職・給料 - 看護roo![カンゴルー]",
+        "url": "https://www.kango-roo.com/career/station/2680686002/?utm_source=openai",
+        "source": "www.kango-roo.com",
         "published_at": null,
-        "summary": "2025年12月開業予定のA-Smile東林間でホームヘルパー正社員募集。完全週休2日制。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
-        "first_seen": "2026-11-06T02:28:55.292473+00:00"
-      },
-      {
-        "title": "株式会社リープス　フォレストinn東林間のアルバイト・バイト求人情報｜〖タウンワーク〗でバイトやパートのお仕事探し",
-        "url": "https://townwork.net/viewjob/jobid_e935761b0f3fe53b/?utm_source=openai",
-        "source": "townwork.net",
-        "published_at": null,
-        "summary": "フォレストinn東林間の生活支援兼送迎ドライバー（パート）求人。駅徒歩6分、普通免許で応募可能。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
-        "first_seen": "2026-11-06T02:28:55.292473+00:00"
+        "summary": "東林間駅周辺の正職員看護師求人。経験3年で月給33.2万円～。年間休日120日、車通勤可。（初めて見つけた日：2026-10-15。募集状況は掲載先で確認）",
+        "first_seen": "2026-10-15T00:07:00.218635+00:00"
       }
     ],
     "query": "東林間 求人 募集 採用",
