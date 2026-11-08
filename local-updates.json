@@ -1,42 +1,27 @@
 {
   "news": {
-    "updated_at": "2026-11-08T01:27:27.149113+00:00",
+    "updated_at": "2026-11-08T02:41:14.435877+00:00",
     "items": [
       {
         "title": "15古書店等出店 第２回「東林間一箱古本市」が11月３日（火・祝）に東林間神社で開催 - タウンニュース",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xaU5FNER6VmV0cU8tLWcyNjBObzNmQlhuTVRGTzF3OEItNzF1RUlvRGhiUzNpVXgyWFZiMy1PLWFvNmRlVHpNUW1DS3doTUVMLXFrSGsyVzU3QUw2RVIxcFNjM2s?oc=5",
         "source": "タウンニュース",
         "published_at": "2026-10-09T07:00:00+00:00",
-        "summary": "第２回『東林間一箱古本市』が11月3日に東林間神社で開催予定。"
-      },
-      {
-        "title": "15古書店等出店 第２回「東林間一箱古本市」が11月３日（火・祝）に東林間神社で開催 相模原市南区 - au Webポータル",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aa0pTZUYtMkJvbk90QXlQRThNQm9tYlNva2FMZVRXT3RacU0xdmwzVW5UdkZmOHY4cWpDRldILTFLVldzbktJMjJETmIzd0l2LU91dWY3REsxd0RyRWFWSFdaZVlVTlBmSzdjSG5n?oc=5",
-        "source": "au Webポータル",
-        "published_at": "2026-10-11T07:00:00+00:00",
-        "summary": "15の古書店等が出店する『東林間一箱古本市』が11月3日に東林間神社で開催。"
+        "summary": "第２回「東林間一箱古本市」が11月３日に東林間神社で開催される。"
       }
     ],
     "query": "東林間",
     "seen": {}
   },
   "jobs": {
-    "updated_at": "2026-11-08T01:27:27.149113+00:00",
+    "updated_at": "2026-11-08T02:41:14.435877+00:00",
     "items": [
-      {
-        "title": "介護職員(夜勤専従)｜神奈川県相模原市南区｜時給1,279円｜一般社団法人 東林間 輝 - ハローワークJOB 求職者向け情報提供サイト",
-        "url": "https://helloworkjob.jp/14090-15875761/?utm_source=openai",
-        "source": "helloworkjob.jp",
-        "published_at": null,
-        "summary": "東林間駅徒歩2分、夜勤専従の介護職員募集。正社員登用あり。（初めて見つけた日：2026-11-08。募集状況は掲載先で確認）",
-        "first_seen": "2026-11-08T01:27:27.149113+00:00"
-      },
       {
         "title": "ライブラリ東林間 高齢者グループホームの介護職員〖パート〗の求人詳細―リビングプラットフォームグループ 介護士・障がい者支援員・保育士・調理師 求人サイト",
         "url": "https://living-platform-recruit.net/jobfind-pc/job/All/118761?utm_source=openai",
         "source": "living-platform-recruit.net",
         "published_at": null,
-        "summary": "東林間駅徒歩約8分、高齢者グループホームの介護職員パート求人。資格取得支援あり。（初めて見つけた日：2026-11-08。募集状況は掲載先で確認）",
+        "summary": "ライブラリ東林間の高齢者グループホーム介護職員パート募集。東林間駅徒歩約8分。無資格・未経験者歓迎。（初めて見つけた日：2026-11-08。募集状況は掲載先で確認）",
         "first_seen": "2026-11-08T01:27:27.149113+00:00"
       },
       {
@@ -44,7 +29,7 @@
         "url": "https://hello-work.info/%E7%94%A8%E5%8B%99%E5%93%A1%E9%96%A2%E9%80%A3%E3%81%AE%E6%B1%82%E4%BA%BA-%E6%9D%B1%E6%9E%97%E9%96%93%E9%A7%85/?utm_source=openai",
         "source": "hello-work.info",
         "published_at": null,
-        "summary": "東林間駅徒歩8分、用務員の求人。給食配膳や清掃業務、子どもとの関わりも含む。（初めて見つけた日：2026-11-07。募集状況は掲載先で確認）",
+        "summary": "東林間駅近くで用務員（給食配膳・清掃等）の求人。子どもとかかわる業務も含む。（初めて見つけた日：2026-11-07。募集状況は掲載先で確認）",
         "first_seen": "2026-11-07T01:56:52.575385+00:00"
       },
       {
@@ -52,7 +37,7 @@
         "url": "https://arubaito-ex.jp/jobs/397923208?utm_source=openai",
         "source": "arubaito-ex.jp",
         "published_at": null,
-        "summary": "東林間駅徒歩2分、東急ストア東林間店のキッチン・調理補助の求人情報。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
+        "summary": "東急ストア東林間店のキッチン・調理補助のアルバイト募集。東林間駅徒歩2分。未経験者歓迎。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
         "first_seen": "2026-11-06T02:28:55.292473+00:00"
       }
     ],
