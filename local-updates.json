@@ -1,27 +1,35 @@
 {
   "news": {
-    "updated_at": "2026-11-10T04:08:21.513944+00:00",
+    "updated_at": "2026-11-10T04:46:27.376746+00:00",
     "items": [
       {
         "title": "15古書店等出店 第２回「東林間一箱古本市」が11月３日（火・祝）に東林間神社で開催 相模原市南区 - au Webポータル",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aa0pTZUYtMkJvbk90QXlQRThNQm9tYlNva2FMZVRXT3RacU0xdmwzVW5UdkZmOHY4cWpDRldILTFLVldzbktJMjJETmIzd0l2LU91dWY3REsxd0RyRWFWSFdaZVlVTlBmSzdjSG5n?oc=5",
         "source": "au Webポータル",
         "published_at": "2026-10-11T07:00:00+00:00",
-        "summary": "東林間神社で11月3日に第2回「東林間一箱古本市」が開催され、15店の古書店等が出店予定。"
+        "summary": "東林間神社で11月3日に第2回「東林間一箱古本市」が開催される。"
       }
     ],
     "query": "東林間",
     "seen": {}
   },
   "jobs": {
-    "updated_at": "2026-11-10T04:08:21.513944+00:00",
+    "updated_at": "2026-11-10T04:46:27.376746+00:00",
     "items": [
+      {
+        "title": "ライブラリ東林間のアルバイト・バイト求人情報｜〖タウンワーク〗でバイトやパートのお仕事探し",
+        "url": "https://townwork.net/viewjob/jobid_369bd15092bf438a/?utm_source=openai",
+        "source": "townwork.net",
+        "published_at": null,
+        "summary": "ライブラリ東林間の介護職員募集。無資格可、週1日勤務可、駅徒歩約8分。（初めて見つけた日：2026-11-07。募集状況は掲載先で確認）",
+        "first_seen": "2026-11-07T01:56:52.575385+00:00"
+      },
       {
         "title": "用務員 東林間駅の求人情報 | ハローワーク求人検索のシゴトリサーチ",
         "url": "https://hello-work.info/%E7%94%A8%E5%8B%99%E5%93%A1%E9%96%A2%E9%80%A3%E3%81%AE%E6%B1%82%E4%BA%BA-%E6%9D%B1%E6%9E%97%E9%96%93%E9%A7%85/?utm_source=openai",
         "source": "hello-work.info",
         "published_at": null,
-        "summary": "東林間駅近くの用務員求人。清掃や給食配膳補助、看護などの業務。駅徒歩8分。（初めて見つけた日：2026-11-07。募集状況は掲載先で確認）",
+        "summary": "東林間駅近くの用務員求人。清掃や給食配膳補助など多様な業務あり。（初めて見つけた日：2026-11-07。募集状況は掲載先で確認）",
         "first_seen": "2026-11-07T01:56:52.575385+00:00"
       },
       {
@@ -29,15 +37,7 @@
         "url": "https://arubaito-ex.jp/jobs/397923208?utm_source=openai",
         "source": "arubaito-ex.jp",
         "published_at": null,
-        "summary": "東急ストア東林間店でのデリカスタッフのアルバイト求人。駅徒歩2分。未経験歓迎。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
-        "first_seen": "2026-11-06T02:28:55.292473+00:00"
-      },
-      {
-        "title": "ライブラリ東林間 高齢者グループホームの介護職員〖パート〗の求人詳細―リビングプラットフォームグループ 介護士・障がい者支援員・保育士・調理師 求人サイト",
-        "url": "https://living-platform-recruit.net/jobfind-pc/job/All/118758?utm_source=openai",
-        "source": "living-platform-recruit.net",
-        "published_at": null,
-        "summary": "ライブラリ東林間の介護職員パート求人。駅徒歩約8分。無資格・未経験者歓迎。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
+        "summary": "東急ストア東林間店のデリカスタッフ募集。東林間駅徒歩2分、時給1,225円。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
         "first_seen": "2026-11-06T02:28:55.292473+00:00"
       },
       {
@@ -45,7 +45,7 @@
         "url": "https://townwork.net/viewjob/jobid_01c690661b6e8ed6/?utm_source=openai",
         "source": "townwork.net",
         "published_at": null,
-        "summary": "A-Smile東林間は2025年12月オープン予定のホームヘルパー職。駅徒歩2分。未経験歓迎。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
+        "summary": "A-Smile東林間のホームヘルパー求人（2025年12月オープン予定）、駅徒歩2分。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
         "first_seen": "2026-11-06T02:28:55.292473+00:00"
       }
     ],
