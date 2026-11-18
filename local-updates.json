@@ -14,14 +14,14 @@
     "seen": {}
   },
   "jobs": {
-    "updated_at": "2026-11-17T05:13:33.183579+00:00",
+    "updated_at": "2026-11-18T03:43:24.129683+00:00",
     "items": [
       {
         "title": "〖東急ストア　東林間店〗のアルバイト・パートの求人情報｜バイトルで仕事探し(No.161314730)",
         "url": "https://www.baitoru.com/jobdetail/161314730?pname=link_job_detail_sp_jlist_all_p_28_30_zaki_9&utm_source=openai",
         "source": "www.baitoru.com",
         "published_at": null,
-        "summary": "東急ストア東林間店で水産部門スタッフのアルバイト・パート募集。駅近で午前中勤務。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
+        "summary": "東急ストア東林間店で水産部門スタッフのアルバイト募集。主に魚のパック詰めや加工業務。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
         "first_seen": "2026-11-15T01:56:55.910940+00:00"
       },
       {
@@ -29,16 +29,24 @@
         "url": "https://lacotto.jp/job_offers/496459693?site_code=b_detail_suggest_2&utm_source=openai",
         "source": "lacotto.jp",
         "published_at": null,
-        "summary": "A-Smile東林間で訪問介護スタッフの正社員を募集。東林間駅徒歩2分。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
+        "summary": "東林間駅近くで訪問介護スタッフ（正社員）を募集。資格を活かせる職場です。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
         "first_seen": "2026-11-14T02:27:30.770799+00:00"
       },
       {
-        "title": "ライブラリ東林間 高齢者グループホームの介護職員〖パート〗の求人詳細―リビングプラットフォームグループ 介護士・障がい者支援員・保育士・調理師 求人サイト",
-        "url": "https://living-platform-recruit.net/jobfind-pc/job/All/118758?utm_source=openai",
-        "source": "living-platform-recruit.net",
+        "title": "A-Smile東林間(神奈川県相模原市南区)の介護職員・ヘルパー(パート・アルバイト)求人・採用情報｜ウェルミージョブ",
+        "url": "https://www.kaigojob.com/care-worker/job-postings-1043570?utm_source=openai",
+        "source": "www.kaigojob.com",
         "published_at": null,
-        "summary": "ライブラリ東林間の高齢者グループホームで介護職員パートを募集。資格取得支援あり。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
-        "first_seen": "2026-11-06T02:28:55.292473+00:00"
+        "summary": "東林間でパート・アルバイトの介護職員・ヘルパー求人。時給アップあり、短時間勤務可能。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
+        "first_seen": "2026-11-14T02:27:30.770799+00:00"
+      },
+      {
+        "title": "ライブラリ東林間のアルバイト・バイト求人情報｜〖タウンワーク〗でバイトやパートのお仕事探し",
+        "url": "https://townwork.net/viewjob/jobid_369bd15092bf438a/?utm_source=openai",
+        "source": "townwork.net",
+        "published_at": null,
+        "summary": "東林間の介護職員パート募集。無資格OKで週1日から勤務可能な職場です。（初めて見つけた日：2026-11-07。募集状況は掲載先で確認）",
+        "first_seen": "2026-11-07T01:56:52.575385+00:00"
       }
     ],
     "query": "東林間 求人 募集 採用",
