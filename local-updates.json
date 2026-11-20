@@ -14,14 +14,22 @@
     "seen": {}
   },
   "jobs": {
-    "updated_at": "2026-11-20T03:19:20.426992+00:00",
+    "updated_at": "2026-11-20T04:15:55.058565+00:00",
     "items": [
+      {
+        "title": "でじるみ相模原東林間 2026年4月オープン！",
+        "url": "https://www.youtube.com/watch?v=5in7yOxB8s8&utm_source=openai",
+        "source": "www.youtube.com",
+        "published_at": null,
+        "summary": "相模原東林間に2026年4月オープン予定の就労支援事業所「でじるみ」。（初めて見つけた日：2026-11-19。募集状況は掲載先で確認）",
+        "first_seen": "2026-11-19T04:29:05.410037+00:00"
+      },
       {
         "title": "〖東急ストア　東林間店〗のアルバイト・パートの求人情報｜バイトルで仕事探し(No.161314730)",
         "url": "https://www.baitoru.com/jobdetail/161314730?pname=link_job_detail_sp_jlist_all_p_28_30_zaki_9&utm_source=openai",
         "source": "www.baitoru.com",
         "published_at": null,
-        "summary": "東林間の東急ストア水産部門スタッフ（アルバイト・パート）求人。駅近で経験者歓迎。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
+        "summary": "東急ストア東林間店で水産部門スタッフのアルバイト求人。駅から徒歩1分。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
         "first_seen": "2026-11-15T01:56:55.910940+00:00"
       },
       {
@@ -29,7 +37,7 @@
         "url": "https://www.kaigojob.com/care-worker/job-postings-1043570?utm_source=openai",
         "source": "www.kaigojob.com",
         "published_at": null,
-        "summary": "東林間の介護職員・ヘルパー（パート）求人。未経験歓迎、週2日から勤務可能。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
+        "summary": "東林間のA-Smileで介護職員・ヘルパーのパート求人。週2日から勤務可能。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
         "first_seen": "2026-11-14T02:27:30.770799+00:00"
       },
       {
@@ -37,7 +45,7 @@
         "url": "https://lacotto.jp/job_offers/496459693?site_code=b_detail_suggest_2&utm_source=openai",
         "source": "lacotto.jp",
         "published_at": null,
-        "summary": "東林間の介護職員・ヘルパー（正社員）求人。未経験歓迎、シフト自由で年齢不問。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
+        "summary": "東林間のA-Smileで介護職員・ヘルパーの正社員求人。完全週休2日制。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
         "first_seen": "2026-11-14T02:27:30.770799+00:00"
       },
       {
@@ -45,7 +53,7 @@
         "url": "https://living-platform-recruit.net/jobfind-pc/job/All/118758?utm_source=openai",
         "source": "living-platform-recruit.net",
         "published_at": null,
-        "summary": "東林間の高齢者グループホーム介護職（パート）求人。無資格OK、駅近、車通勤可。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
+        "summary": "東林間のライブラリ東林間で介護職員パート求人。無資格OK、駅近く。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
         "first_seen": "2026-11-06T02:28:55.292473+00:00"
       }
     ],
