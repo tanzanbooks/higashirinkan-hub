@@ -14,22 +14,14 @@
     "seen": {}
   },
   "jobs": {
-    "updated_at": "2026-11-21T03:13:54.545092+00:00",
+    "updated_at": "2026-11-21T04:15:42.261536+00:00",
     "items": [
-      {
-        "title": "東林間駅の即日勤務OKの求人・仕事・採用｜スタンバイでお仕事探し",
-        "url": "https://jp.stanby.com/r_%E5%8D%B3%E6%97%A5%E5%8B%A4%E5%8B%99OK%E3%81%AE%E6%B1%82%E4%BA%BA-%E6%9D%B1%E6%9E%97%E9%96%93%E9%A7%85?utm_source=openai",
-        "source": "jp.stanby.com",
-        "published_at": null,
-        "summary": "東林間駅近くの一般病院で受付事務スタッフ正社員募集。即日勤務可能で未経験歓迎。（初めて見つけた日：2026-11-21。募集状況は掲載先で確認）",
-        "first_seen": "2026-11-21T03:13:54.545092+00:00"
-      },
       {
         "title": "〖東急ストア　東林間店〗のアルバイト・パートの求人情報｜バイトルで仕事探し(No.161314730)",
         "url": "https://www.baitoru.com/jobdetail/161314730?pname=link_job_detail_sp_jlist_all_p_28_30_zaki_9&utm_source=openai",
         "source": "www.baitoru.com",
         "published_at": null,
-        "summary": "東急ストア東林間店の水産部門アルバイト募集。午前中勤務で経験者歓迎。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
+        "summary": "東林間店の水産部門スタッフのアルバイト・パート募集。魚介類の加工や品出し業務。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
         "first_seen": "2026-11-15T01:56:55.910940+00:00"
       },
       {
@@ -37,15 +29,31 @@
         "url": "https://lacotto.jp/job_offers/496459693?site_code=b_detail_suggest_2&utm_source=openai",
         "source": "lacotto.jp",
         "published_at": null,
-        "summary": "A-Smile東林間で訪問介護スタッフの正社員求人。資格を活かせる環境で主婦・主夫歓迎。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
+        "summary": "東林間駅徒歩2分の訪問介護スタッフ正社員求人。資格活かせる職場。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
         "first_seen": "2026-11-14T02:27:30.770799+00:00"
+      },
+      {
+        "title": "A-Smile東林間(神奈川県相模原市南区)の介護職員・ヘルパー(パート・アルバイト)求人・採用情報｜ウェルミージョブ",
+        "url": "https://www.kaigojob.com/care-worker/job-postings-1043570?utm_source=openai",
+        "source": "www.kaigojob.com",
+        "published_at": null,
+        "summary": "東林間の介護職員・ヘルパーのパート・アルバイト求人。未経験歓迎で柔軟勤務可能。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
+        "first_seen": "2026-11-14T02:27:30.770799+00:00"
+      },
+      {
+        "title": "介護職員(夜勤専従)｜神奈川県相模原市南区｜時給1,279円｜一般社団法人 東林間 輝 - ハローワークJOB 求職者向け情報提供サイト",
+        "url": "https://helloworkjob.jp/14090-15875761/?utm_source=openai",
+        "source": "helloworkjob.jp",
+        "published_at": null,
+        "summary": "東林間で夜勤専従の介護職員募集。勤務時間は17時から翌10時。（初めて見つけた日：2026-11-08。募集状況は掲載先で確認）",
+        "first_seen": "2026-11-08T01:27:27.149113+00:00"
       },
       {
         "title": "ライブラリ東林間 高齢者グループホームの介護職員〖パート〗の求人詳細―リビングプラットフォームグループ 介護士・障がい者支援員・保育士・調理師 求人サイト",
         "url": "https://living-platform-recruit.net/jobfind-pc/job/All/118758?utm_source=openai",
         "source": "living-platform-recruit.net",
         "published_at": null,
-        "summary": "ライブラリ東林間の高齢者グループホーム介護職員パート求人。未経験・無資格も応募可。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
+        "summary": "東林間の高齢者グループホームで介護職員パート募集。無資格・未経験歓迎。（初めて見つけた日：2026-11-06。募集状況は掲載先で確認）",
         "first_seen": "2026-11-06T02:28:55.292473+00:00"
       }
     ],
