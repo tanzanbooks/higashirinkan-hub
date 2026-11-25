@@ -14,30 +14,22 @@
     "seen": {}
   },
   "jobs": {
-    "updated_at": "2026-11-24T07:05:28.026340+00:00",
+    "updated_at": "2026-11-25T04:53:54.132287+00:00",
     "items": [
       {
-        "title": "東林間駅周辺の事前見学OK 介護福祉士求人・転職・募集情報｜コメディカルドットコム",
-        "url": "https://www.co-medical.com/ccw/station2500202/JA020/?utm_source=openai",
-        "source": "www.co-medical.com",
-        "published_at": null,
-        "summary": "ライブラリ東林間の日勤介護職員パート求人。無資格・未経験歓迎で昇給機会あり。（初めて見つけた日：2026-11-24。募集状況は掲載先で確認）",
-        "first_seen": "2026-11-24T07:05:28.026340+00:00"
-      },
-      {
         "title": "株式会社リープス　フォレストinn東林間のアルバイト・バイト求人情報｜〖タウンワーク〗でバイトやパートのお仕事探し",
-        "url": "https://townwork.net/viewjob/jobid_f3f08e780cb4d3e9/?utm_source=openai",
+        "url": "https://townwork.net/viewjob/jobid_95fa09fa15c8cd63/?utm_source=openai",
         "source": "townwork.net",
         "published_at": null,
-        "summary": "フォレストinn東林間の夜勤スタッフ正社員求人。未経験・無資格OK、主婦活躍中。（初めて見つけた日：2026-11-24。募集状況は掲載先で確認）",
-        "first_seen": "2026-11-24T06:04:46.950042+00:00"
+        "summary": "フォレストinn東林間の生活支援兼送迎ドライバーのアルバイト。扶養内勤務可能。（初めて見つけた日：2026-11-25。募集状況は掲載先で確認）",
+        "first_seen": "2026-11-25T04:53:54.132287+00:00"
       },
       {
-        "title": "A-Smile東林間(相模原市南区東林間駅)経験者優遇・長期歓迎の求人情報｜アルバイト・バイト・パート探しはラコット",
-        "url": "https://lacotto.jp/job_offers/496459693?site_code=b_detail_suggest_1&utm_source=openai",
-        "source": "lacotto.jp",
+        "title": "〖東急ストア　東林間店〗のアルバイト・パートの求人情報｜バイトルで仕事探し(No.161314730)",
+        "url": "https://www.baitoru.com/jobdetail/161314730?pname=link_job_detail_sp_jlist_all_p_28_30_zaki_9&utm_source=openai",
+        "source": "www.baitoru.com",
         "published_at": null,
-        "summary": "A-Smile東林間の訪問介護スタッフ正社員求人。経験者優遇、シフト自由。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
+        "summary": "東急ストア東林間店の水産部門スタッフ募集。魚介類の加工や品出し業務。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
         "first_seen": "2026-11-15T01:56:55.910940+00:00"
       },
       {
@@ -45,7 +37,7 @@
         "url": "https://www.kaigojob.com/care-worker/job-postings-1043570?utm_source=openai",
         "source": "www.kaigojob.com",
         "published_at": null,
-        "summary": "A-Smile東林間の訪問介護スタッフ求人。パート・アルバイト募集、未経験歓迎。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
+        "summary": "A-Smile東林間の介護職員・ヘルパー求人。未経験歓迎、週2日勤務から可能。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
         "first_seen": "2026-11-14T02:27:30.770799+00:00"
       },
       {
@@ -53,7 +45,7 @@
         "url": "https://living-platform-recruit.net/jobfind-pc/job/All/118767?utm_source=openai",
         "source": "living-platform-recruit.net",
         "published_at": null,
-        "summary": "ライブラリ東林間の夜勤専従介護職員パート求人。無資格OK、資格支援あり。（初めて見つけた日：2026-10-13。募集状況は掲載先で確認）",
+        "summary": "ライブラリ東林間の夜勤専従介護職員募集。無資格OK、資格取得支援あり。（初めて見つけた日：2026-10-13。募集状況は掲載先で確認）",
         "first_seen": "2026-10-13T23:41:35.553464+00:00"
       }
     ],
@@ -107,18 +99,19 @@
       "https://www.youtube.com/watch?v=5in7yOxB8s8&utm_source=openai": "2026-11-19T04:29:05.410037+00:00",
       "https://jp.stanby.com/r_%E5%8D%B3%E6%97%A5%E5%8B%A4%E5%8B%99OK%E3%81%AE%E6%B1%82%E4%BA%BA-%E6%9D%B1%E6%9E%97%E9%96%93%E9%A7%85?utm_source=openai": "2026-11-21T03:13:54.545092+00:00",
       "https://townwork.net/viewjob/jobid_f3f08e780cb4d3e9/?utm_source=openai": "2026-11-24T06:04:46.950042+00:00",
-      "https://www.co-medical.com/ccw/station2500202/JA020/?utm_source=openai": "2026-11-24T07:05:28.026340+00:00"
+      "https://www.co-medical.com/ccw/station2500202/JA020/?utm_source=openai": "2026-11-24T07:05:28.026340+00:00",
+      "https://townwork.net/viewjob/jobid_95fa09fa15c8cd63/?utm_source=openai": "2026-11-25T04:53:54.132287+00:00"
     }
   },
   "properties": {
-    "updated_at": "2026-11-24T06:04:46.950042+00:00",
+    "updated_at": "2026-11-25T04:53:54.132287+00:00",
     "items": [
       {
         "title": "ＤＯＬＦＩＮＯ相模原東林間 １０１ 相模原市南区の貸店舗・事務所(一部)の物件情報｜貸店舗（テナント）｜神奈川県相模原市の不動産なら大和建物株式会社：68c162a57f54e6641ff905c7",
         "url": "https://www.daiwatatemono.co.jp/kasi-tenpo/detail-68c162a57f54e6641ff905c7/?utm_source=openai",
         "source": "www.daiwatatemono.co.jp",
         "published_at": null,
-        "summary": "ＤＯＬＦＩＮＯ相模原東林間 １０１の貸店舗・事務所物件情報。詳細は大和建物株式会社のサイト参照。（初めて見つけた日：2026-11-22。空室・条件は掲載元で確認）",
+        "summary": "ＤＯＬＦＩＮＯ相模原東林間 １０１の貸店舗・事務所(一部)物件情報。詳細は掲載元を確認。（初めて見つけた日：2026-11-22。空室・条件は掲載元で確認）",
         "first_seen": "2026-11-22T02:16:04.193308+00:00"
       },
       {
@@ -126,8 +119,16 @@
         "url": "https://www.corporation-courage.co.jp/kasi-tenpo/detail-6afbee45be5a904ae6a5c68a/townstats.html?utm_source=openai",
         "source": "www.corporation-courage.co.jp",
         "published_at": null,
-        "summary": "ＫＨＳ東林間 １Fの貸店舗・事務所物件情報。詳細は株式会社Ｃｏｕｒａｇｅのサイト参照。（初めて見つけた日：2026-11-21。空室・条件は掲載元で確認）",
+        "summary": "ＫＨＳ東林間 １Fの貸店舗・事務所(一部)物件情報。詳細は掲載元を参照。（初めて見つけた日：2026-11-21。空室・条件は掲載元で確認）",
         "first_seen": "2026-11-21T03:13:54.545092+00:00"
+      },
+      {
+        "title": "ヴィラ東林間 １０３号室 相模原市南区の貸店舗・事務所(一部)の物件情報｜貸店舗（テナント）｜神奈川県横浜市の不動産なら株式会社天：69abeab4169fa4984986ef80",
+        "url": "https://www.ten-estate.com/kasi-tenpo/detail-69abeab4169fa4984986ef80/?utm_source=openai",
+        "source": "www.ten-estate.com",
+        "published_at": null,
+        "summary": "ヴィラ東林間 １０３号室の貸店舗・事務所(一部)物件情報。詳細は掲載元を確認要。（初めて見つけた日：2026-11-10。空室・条件は掲載元で確認）",
+        "first_seen": "2026-11-10T04:08:21.513944+00:00"
       }
     ],
     "query": "東林間 貸事務所 貸店舗 店舗兼事務所",
