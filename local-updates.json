@@ -14,22 +14,14 @@
     "seen": {}
   },
   "jobs": {
-    "updated_at": "2026-11-26T05:26:03.878109+00:00",
+    "updated_at": "2026-11-27T04:16:04.787269+00:00",
     "items": [
-      {
-        "title": "スーパー三和　東林間店 〖パート〗スーパーのスタッフ　鮮魚エリアの求人詳細―スーパー三和 求人サイト",
-        "url": "https://sanwa-recruit.net/jobfind-pc/job/All/2562?utm_source=openai",
-        "source": "sanwa-recruit.net",
-        "published_at": null,
-        "summary": "スーパー三和東林間店の鮮魚エリアスタッフ求人。未経験者歓迎、主婦活躍中。（初めて見つけた日：2026-11-26。募集状況は掲載先で確認）",
-        "first_seen": "2026-11-26T04:10:09.355296+00:00"
-      },
       {
         "title": "A-Smile東林間(相模原市南区東林間駅)経験者優遇・長期歓迎の求人情報｜アルバイト・バイト・パート探しはラコット",
         "url": "https://lacotto.jp/job_offers/496459693?site_code=b_detail_suggest_1&utm_source=openai",
         "source": "lacotto.jp",
         "published_at": null,
-        "summary": "A-Smile東林間の訪問介護スタッフ正社員求人。経験者優遇、東林間駅近。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
+        "summary": "東林間駅近くの訪問介護スタッフ正社員求人。資格活かせる環境で経験者優遇。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
         "first_seen": "2026-11-15T01:56:55.910940+00:00"
       },
       {
@@ -37,15 +29,23 @@
         "url": "https://www.baitoru.com/jobdetail/161314730?pname=link_job_detail_sp_jlist_all_p_28_30_zaki_9&utm_source=openai",
         "source": "www.baitoru.com",
         "published_at": null,
-        "summary": "東急ストア東林間店の水産部門スタッフアルバイト求人。魚介類加工業務中心。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
+        "summary": "東林間駅近くの東急ストア水産部門スタッフ求人。魚介類加工ありのパート募集。（初めて見つけた日：2026-11-15。募集状況は掲載先で確認）",
         "first_seen": "2026-11-15T01:56:55.910940+00:00"
+      },
+      {
+        "title": "A-Smile東林間(神奈川県相模原市南区)の介護職員・ヘルパー(パート・アルバイト)求人・採用情報｜ウェルミージョブ",
+        "url": "https://www.kaigojob.com/care-worker/job-postings-1043570?utm_source=openai",
+        "source": "www.kaigojob.com",
+        "published_at": null,
+        "summary": "東林間の介護職パート・アルバイト求人。未経験歓迎で時短勤務や資格支援あり。（初めて見つけた日：2026-11-14。募集状況は掲載先で確認）",
+        "first_seen": "2026-11-14T02:27:30.770799+00:00"
       },
       {
         "title": "ライブラリ東林間 高齢者グループホームの夜勤専従介護職員〖パート・夜勤専従〗の求人詳細―リビングプラットフォームグループ 介護士・障がい者支援員・保育士・調理師 求人サイト",
         "url": "https://living-platform-recruit.net/jobfind-pc/job/All/118767?utm_source=openai",
         "source": "living-platform-recruit.net",
         "published_at": null,
-        "summary": "ライブラリ東林間の高齢者グループホーム夜勤専従介護職員パート求人。無資格OK。（初めて見つけた日：2026-10-13。募集状況は掲載先で確認）",
+        "summary": "東林間駅徒歩約8分の夜勤専従介護職パート。無資格可で週1日勤務や車通勤も可能。（初めて見つけた日：2026-10-13。募集状況は掲載先で確認）",
         "first_seen": "2026-10-13T23:41:35.553464+00:00"
       }
     ],
